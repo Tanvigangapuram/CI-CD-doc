@@ -430,41 +430,9 @@ JENKINS_URL/job/ajafreestle/build?token=TOKEN_NAME or /buildwithparameters?token
 
     4. Always trigger, even if the build is aborted
 
-3. Build periodically (In Schedule)
+3. Buils periodically (In Schedule)
 
---> This field follows the system of cron(with more differences) specifically, each line consists of 5 fields separated by TAB or whitespace.
-
-MINUTE HOUR DOM MONTH DOW 
-
-    MINUTE - Minutes within the hour (0-59)
-
-    HOUR - The hour of the day (0-23)
-
-    DOM - The day of the month (1-31)
-
-    MONTH - The Month (1-12)
-
-    DOW - The day of the week (0-7)
-
---> where 0 & 7 are sunday.
-
---> To specify multiple values for one field, the following operators are available. In the order of Precedence.
-
---> For reference or practise go with the website crontab.guru
-
-4. Github hook trigger for GIT SCM polling
-
---> when jenkins receive a github push hook, github plugins checks to see whether the hook came from a github repository which matches the git repository defined in SCM/Git section of this job.
-
---> This option is available only GITHUB plugin is installed.
-
-5. Poll SCM
-
---> Configure jenkins to poll changes in SCM.
-
---> Apart from the above five trigger options we can also triggers job manually.
-
-
+--> This field 
 
 
 

@@ -444,7 +444,7 @@ MINUTE HOUR DOM MONTH DOW
 
     MONTH - The Month (1-12)
 
-    DOW - The day of the week (0-7)
+DOW - The day of the week (0-7)
 
 --> where 0 & 7 are sunday.
 

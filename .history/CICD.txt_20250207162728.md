@@ -436,15 +436,15 @@ JENKINS_URL/job/ajafreestle/build?token=TOKEN_NAME or /buildwithparameters?token
 
 MINUTE HOUR DOM MONTH DOW 
 
-    MINUTE - Minutes within the hour (0-59)
+MINUTE - Minutes within the hour (0-59)
 
-    HOUR - The hour of the day (0-23)
+HOUR - The hour of the day (0-23)
 
-    DOM - The day of the month (1-31)
+DOM - The day of the month (1-31)
 
-    MONTH - The Month (1-12)
+MONTH - The Month (1-12)
 
-    DOW - The day of the week (0-7)
+DOW - The day of the week (0-7)
 
 --> where 0 & 7 are sunday.
 
@@ -462,7 +462,7 @@ MINUTE HOUR DOM MONTH DOW
 
 --> Configure jenkins to poll changes in SCM.
 
---> Apart from the above five trigger options we can also triggers job manually.
+--> AP
 
 
 

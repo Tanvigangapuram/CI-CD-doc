@@ -440,11 +440,11 @@ MINUTE HOUR DOM MONTH DOW
 
     HOUR - The hour of the day (0-23)
 
-    DOM - The day of the month (1-31)
+DOM - The day of the month (1-31)
 
-    MONTH - The Month (1-12)
+MONTH - The Month (1-12)
 
-    DOW - The day of the week (0-7)
+DOW - The day of the week (0-7)
 
 --> where 0 & 7 are sunday.
 
