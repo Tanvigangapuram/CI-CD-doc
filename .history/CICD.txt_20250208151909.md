@@ -530,21 +530,7 @@ pipeline {
 
 ## Rebuild vs Replay
 
---> When we use rebuild we are not changing anything but where as replay gives us provision to change the code then & there.
-
---> Replay we can also use it as one of the troubleshooting Mechanism.
-
---> If we don't know how to write pipeline script code we can take the advantage of snippet generator in pipeline syntax option(pipeline syntax option will only visible when you create pipeline job or project).
-
---> This snippet Generator will help you to learn the pipeline script code which can be used to define various steps. Pick a step you are interested in from the list, configure it.
-
---> Click generate pipeline script, & you will see a pipeline script statement that would call the step with that confihuration you may copy & paste the whole statement in to your script, or pick up just the options you care about.
-
-EX: To Print message in sample step of snippet generator we can search for the echo/print you can search for echo.
-
- --> There is a step echo:Print Message then what message we want to print we have to pass it in message block then click on generate pipeline script which will give us script to print message.
-
- --> By default pipeline execution will work on serially (one by one). If the previous stages passed then only it will go for next stage or further stages.
+--> 
 
 
 

@@ -542,10 +542,6 @@ pipeline {
 
 EX: To Print message in sample step of snippet generator we can search for the echo/print you can search for echo.
 
- --> There is a step echo:Print Message then what message we want to print we have to pass it in message block then click on generate pipeline script which will give us script to print message.
-
- --> By default pipeline execution will work on serially (one by one). If the previous stages passed then only it will go for next stage or further stages.
-
 
 
 
