@@ -618,26 +618,4 @@ https://www.jenkins.io/doc/book/pipeline/jenkinsfile/#using-environment-variable
 
 --> Create New job in general configuration of that job you can see the option this project is parameterized need to checkbox that & there will use option add pareameter dropdown click on that you will see various parameters those are 
 
-1. Boolean Parameter
-
-2. Choice Parameter
-
-3. Credentials Parameter
-
-4. File Parameter
-
-5. Multiline string Parameter
-
-6. Password Parameter
-
-7. Run Parameter
-
-8. String Parameter
-
---> For example click on choice parameter(Defines a simple string parameter, which can be selected from a list. You can use it during a build) give thw name as ENV & under choice you can give more than one environment name & under description a description that will be shown to user later & click on save.
-
---> When you check the job to be trigger you will see build with parameter options.Click on that select the choices which we configured & go for the build button.
-
---> Another way of creating jenkins user
-
---> Manage jenkins then security checkbox the Allow users.
+1

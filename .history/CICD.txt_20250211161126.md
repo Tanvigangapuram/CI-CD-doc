@@ -626,7 +626,7 @@ https://www.jenkins.io/doc/book/pipeline/jenkinsfile/#using-environment-variable
 
 4. File Parameter
 
-5. Multiline string Parameter
+5. Multi string Parameter
 
 6. Password Parameter
 

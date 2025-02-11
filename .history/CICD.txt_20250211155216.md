@@ -600,44 +600,4 @@ https://www.jenkins.io/doc/book/pipeline/jenkinsfile/#using-environment-variable
 
 1. Build_ID 
 
-  --> The current BUILD ID, identical to BUILD_NUMBER for builds created.
-
-  --> likewise we have BUILD_NUMBER,BUILD_TAG,BUILD_URL,JENKINS_URL,JOB_NAME,NODE_NAME then WORKSPACE
-
-  --> For example user jenkins file(declarative pipeline) in that URL you will see basic example code copy that code create new item in jenkins for pipeline job.
-
-  --> Replace the script with copied code & save it & build it.
-
-  --> Expected output should be Running 1 on http://localhost:8080/
-
-## How to parameterized the jenkins job
-
-## Parameters
-
---> Parameters/variables allow you to prompt from one or more inputs that will be passed in to  a build.
-
---> Create New job in general configuration of that job you can see the option this project is parameterized need to checkbox that & there will use option add pareameter dropdown click on that you will see various parameters those are 
-
-1. Boolean Parameter
-
-2. Choice Parameter
-
-3. Credentials Parameter
-
-4. File Parameter
-
-5. Multiline string Parameter
-
-6. Password Parameter
-
-7. Run Parameter
-
-8. String Parameter
-
---> For example click on choice parameter(Defines a simple string parameter, which can be selected from a list. You can use it during a build) give thw name as ENV & under choice you can give more than one environment name & under description a description that will be shown to user later & click on save.
-
---> When you check the job to be trigger you will see build with parameter options.Click on that select the choices which we configured & go for the build button.
-
---> Another way of creating jenkins user
-
---> Manage jenkins then security checkbox the Allow users.
+  --> The current BUILD

@@ -626,7 +626,7 @@ https://www.jenkins.io/doc/book/pipeline/jenkinsfile/#using-environment-variable
 
 4. File Parameter
 
-5. Multiline string Parameter
+5. Multi string Parameter
 
 6. Password Parameter
 
@@ -640,4 +640,4 @@ https://www.jenkins.io/doc/book/pipeline/jenkinsfile/#using-environment-variable
 
 --> Another way of creating jenkins user
 
---> Manage jenkins then security checkbox the Allow users.
+--> Manage jenkins then security
