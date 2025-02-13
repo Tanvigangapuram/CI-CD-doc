@@ -666,16 +666,4 @@ Syntax remote URL: JENKINS_URL/job/buildremotely/build?token=TOKEN_NAME
 
 --> Where JENKINS_URL is where jenkins is listening/accessible build remotely is job_name,TOKEN_NAME is authentication token which we configured.
 
-    Ex: localhost:9999/job/buildremotely/build?token=aja-123
-
-## Another way of triggering the job remotely
-
---> In Order to trigger job(EX:job2) we can go for the below command
-
-    curl -u user<API_TOKEN> -X POST localhost:9999/job/job2/build
-
---> where -u is user(Tejaswini)(admin)
-
---> API_TOKEN which has to be generated with the user admin
-
---> POST is a method to call the URL'S.
+Ex: localhost:9999/job

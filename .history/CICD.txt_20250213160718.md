@@ -674,8 +674,4 @@ Syntax remote URL: JENKINS_URL/job/buildremotely/build?token=TOKEN_NAME
 
     curl -u user<API_TOKEN> -X POST localhost:9999/job/job2/build
 
---> where -u is user(Tejaswini)(admin)
-
---> API_TOKEN which has to be generated with the user admin
-
---> POST is a method to call the URL'S.
+-->    

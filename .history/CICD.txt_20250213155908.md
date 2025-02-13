@@ -660,22 +660,4 @@ Ex: To configure apache maven specific version(3.6.0)
 
 --> To configure this kind of requirement we can make use of trigger-trigger builds remotely using authentication token.
 
---> Create a freestyle job with name build remotely checkbox the trigger builds remotely option & configure an build step with authentication token(aja-123) save it & to check this job use the below URL.
-
-Syntax remote URL: JENKINS_URL/job/buildremotely/build?token=TOKEN_NAME
-
---> Where JENKINS_URL is where jenkins is listening/accessible build remotely is job_name,TOKEN_NAME is authentication token which we configured.
-
-    Ex: localhost:9999/job/buildremotely/build?token=aja-123
-
-## Another way of triggering the job remotely
-
---> In Order to trigger job(EX:job2) we can go for the below command
-
-    curl -u user<API_TOKEN> -X POST localhost:9999/job/job2/build
-
---> where -u is user(Tejaswini)(admin)
-
---> API_TOKEN which has to be generated with the user admin
-
---> POST is a method to call the URL'S.
+--> Create a freestyle job with name build remotely checkbox the trigger builds remotely option & configure an build step with authentication token(aja-123) save it & to check this job 
