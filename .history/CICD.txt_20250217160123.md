@@ -809,32 +809,4 @@ EX: Grep
 
 * (s) socket (pass the data between 2 processes)
 
-* (c) Process character hardware communication
-
-## Run Level in Linux
-
---> 0 - Halt the system
-
---> 2 - Multiple user mode with no network filesystem
-
---> 4 - User definable
-
---> 6 - reboot
-
---> 1 - single user mode
-
---> 3 - Multiple user mode in CLI,but no GUI
-
---> 5 - Multiple user mode in GUI
-
-## Pipe 
-
- --> Pipe represented as "|" is used to direct the output of one command to Another
- 
- --> In Pipeline the data flows from left to right, & its undirection.
-
- --> Pipe along with grep is most commonly used
- 
-     Ex: cat file.txt| grep "Linux"
-
-
+* (c)

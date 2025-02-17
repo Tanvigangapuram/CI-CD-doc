@@ -827,14 +827,4 @@ EX: Grep
 
 --> 5 - Multiple user mode in GUI
 
-## Pipe 
-
- --> Pipe represented as "|" is used to direct the output of one command to Another
- 
- --> In Pipeline the data flows from left to right, & its undirection.
-
- --> Pipe along with grep is most commonly used
- 
-     Ex: cat file.txt| grep "Linux"
-
-
+## Pipe

@@ -833,8 +833,4 @@ EX: Grep
  
  --> In Pipeline the data flows from left to right, & its undirection.
 
- --> Pipe along with grep is most commonly used
- 
-     Ex: cat file.txt| grep "Linux"
-
-
+ --> Pipe

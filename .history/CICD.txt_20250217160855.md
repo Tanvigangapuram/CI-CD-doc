@@ -835,6 +835,6 @@ EX: Grep
 
  --> Pipe along with grep is most commonly used
  
-     Ex: cat file.txt| grep "Linux"
+ Ex: cat file.txt| grep "Linux"
 
 

@@ -831,10 +831,4 @@ EX: Grep
 
  --> Pipe represented as "|" is used to direct the output of one command to Another
  
- --> In Pipeline the data flows from left to right, & its undirection.
-
- --> Pipe along with grep is most commonly used
- 
-     Ex: cat file.txt| grep "Linux"
-
-
+ --> In Pipeline the data 
